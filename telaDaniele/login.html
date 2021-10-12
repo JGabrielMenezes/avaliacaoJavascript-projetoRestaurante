@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Restaurante Olympus </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./cssLogin/login.css" media="screen">
+</head>
+
+<body style="background-image: url(./img/imagemilustrativa.png);">
+
+  <div id="principal-container">
+   <h1>Restaurante Olympus</h1>
+    <div id="container">
+    
+      <div class="direita">
+        <form id="login">
+          <img class="logo" src="./img/logo.png">
+          <br> <br>
+          <label for="nome"> Login:</label>
+          <input placeholder="usuário" name="nome" type="text" id="nome"> <br> <br>
+          <label for="senha"> Senha:</label>
+          <input placeholder="senha" id="senha" type="password" name="senha"> <br> <br> 
+           <a id="click" onclick="esquecerSenha() " href=""> Esqueceu a senha? Clique aqui
+           </a><br><br>
+           <a href="../Home/home.html"><input type="submit" value="Acessar" id="showForm"/></a>
+        </form>
+      </div>
+    </div>
+
+
+        <div id="myModal" class="modal">
+
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="messageRetorno"></p>  
+          </div>
+
+        </div>
+     
+
+    
+  </div>
+  <script src="./jsLogin/login.js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: black;
+    line-height:1.5;
+}
+
+.conteudo{  
+    
+    background-color: white;
+    max-width: 720px;
+    min-width: 320px;
+    padding: 20px;
+    margin: left;
+    box-shadow:  0px 6px 10px ;
+}
+
+
+.esquerda{
+    background-color: white;
+    width: auto;
+    padding: auto;
+    margin: right;
+    border-radius: 5px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: #00ccff;
+    box-shadow: 2px 2px 2px #00ccff;
+}
+
+legend{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00ccff;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+input{
+    padding: 2px;
+    outline: none;
+}
+
+input[id="nome"],
+input[id="email"],
+input[id="assunto"]{
+width: 480px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="text"]{
+    border:none;
+    border-bottom: 2px solid #00ccff;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="text"]:focus {
+    color: #00ccff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color: #00ccff;
+}
+
+textarea{
+    padding: 2px;
+    resize: none;
+    outline: none;
+    width: 100%;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background:#00ccff;
+    color:white;
+    border:0;
+    border-radius: 20px;
+    margin: 10px 0;
+    transition: 1s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    transform: scale(1.2);
+}
+
+#retangulo1{
+    position: relative;
+    max-width: 800px;
+    min-width: 320px;
+    height: 300px;
+    left: 750px;
+    top: -500px;  
+}
+
+h4{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+hr{
+    border:none;
+    border-bottom: 2px solid #00ccff;
+
+}
+
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(8,139,172,1) 57%, rgba(0,212,255,1) 88%);
+}

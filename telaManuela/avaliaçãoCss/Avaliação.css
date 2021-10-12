@@ -1,0 +1,45 @@
+h1,i{
+   text-align: center;
+   color:#00ccff;
+   font-size: 45px;
+   margin-top: -35px;
+   font-family: serif;
+}
+p{
+   text-align: center;
+}
+
+div{
+   text-align: center;
+
+}
+
+body{
+   border: 45px solid #00ccff;
+   padding: 50px;
+   margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card{
+   margin-left: 20px;
+   box-shadow: 0 0 1em #92918d;
+   cursor: pointer;
+}
+
+h3{
+   color:#00ccff;
+}
+
+img {
+   clip-path: polygon(0% 0%, 113% 0%, 100% 10%, 100% 100%, 0% 90%, 0% 30%);
+}
+
+
